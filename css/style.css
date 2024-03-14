@@ -1,0 +1,97 @@
+.container {
+    width: 90%; /* Adjust the width as per your requirement */
+    margin: 0 auto; /* This centers the container horizontally */
+    padding: 10px; /* Add padding to the container for spacing */
+    box-sizing: border-box; /* Include padding in the total width */
+}
+
+body {
+    font-family: "Arial", sans-serif; /* Change the font scheme */
+    background-color:black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(224, 213, 93);
+    padding: 10px;
+    font-size: large;
+}
+
+h1, h2, h3 {
+    color: #007bff; 
+}
+
+p {
+    line-height: 1.4; 
+}
+
+nav {
+    border-style: solid;
+    background:rgb(193, 191, 191);
+    padding: 30px;
+    text-align: center;
+    font-size:x-large;
+}
+
+#n1 {
+    color:rgb(110, 36, 180);
+    text-decoration: none;
+    padding: 0px 20px;
+    font-weight: bold;
+}
+
+#n1:hover {
+    color:#8e68b2;
+    font-style:italic;
+}
+
+aside {
+    float: left; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+ul {
+    color:rgb(142, 104, 178);
+    padding: 0px 20px;
+    font-weight: bold;
+    list-style-type:disc;
+}
+
+#l1 {
+    font-size: larger;
+    text-decoration: none;
+    line-height: 2.5;
+}
+
+ul :hover {
+    color:rgb(142, 104, 178);
+    font-style:italic;
+}
+
+section {
+    float: right;
+    width: 80%;
+    color: white;
+    font-size:medium;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+section p {
+    line-height: 1.5;   
+}
+
+section img{
+    width: 100%;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    clear: both;
+}
